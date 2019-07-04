@@ -1,0 +1,30 @@
+/* MODIFICACIONES A BOOTSTRAP */
+.navbar .btn {
+    color: white;
+}
+.navbar .dropdown-menu {
+    top: 49px;
+}
+.navbar .dropdown-item {
+    color: #999;
+}
+.navbar .dropdwon-item:focus,
+.navbar .dropdown-item:hover {
+    background-color: darkorange;
+    color: white;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.navbar-brand {
+    color: white !important;
+}
+.bg-light {
+    background-color: darkorange !important;
+}
+
+/* PERSONALES */
+.bienvenido {
+    color: white;
+    ve
+    
