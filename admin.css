@@ -1,9 +1,13 @@
 /* MODIFICACIONES A BOOTSTRAP */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .navbar .btn {
-    color: white;
+    color: #999;
 }
 .navbar .dropdown-menu {
-    top: 49px;
+    top: 55px;
 }
 .navbar .dropdown-item {
     color: #999;
@@ -17,14 +21,30 @@
     box-shadow: none;
 }
 .navbar-brand {
-    color: white !important;
+    color: #999 !important;
 }
-.bg-light {
+.bg-orange {
     background-color: darkorange !important;
+}
+.nav-item a {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: white !important;
+    transition: .5s all;
+}
+.nav-item:focus,
+.active > .nav-link,
+.nav-item:hover a{
+    background-color: #f8f9fa;
+    color: #999 !important;
 }
 
 /* PERSONALES */
 .bienvenido {
-    color: white;
+    color: #999;
     vertical-align: middle
+}
+.top {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
